@@ -1,0 +1,82 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+#bloc_page {
+  width: 900px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+nav li {
+  list-style-type: none;
+  float: left;
+}
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 30px;
+  font-size: 1.1em;
+  color: #000;
+}
+nav a:hover {
+  color: #0065fc;
+  border-top: 2px solid #0065fc;
+}
+nav li:hover a {
+  padding: 18px 30px;
+}
+.inscription {
+  font-weight: bold;
+  color: #0065fc;
+}
+
+h3 h4 {
+  font-weight: bold;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+}
+footer div li {
+  list-style-type: none;
+  margin-top: 15px;
+}
+section {
+  display: flex;
+  margin-bottom: 20px;
+}
+article {
+  margin-right: 20px;
+  flex: 3;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+}
+aside {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+img {
+  width: 150px;
+  height: 100px;
+  margin: 20px;
+}
+#populaire {
+  width: 100%;
+
+  margin-top: 80px;
+}
