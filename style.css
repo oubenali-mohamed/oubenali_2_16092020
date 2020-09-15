@@ -4,7 +4,7 @@ body {
   padding: 0px;
 }
 #bloc_page {
-  width: 900px;
+  width: 1200px;
   margin: auto;
 }
 
@@ -43,7 +43,9 @@ nav li:hover a {
 
 h3 h4 {
   font-weight: bold;
+ text-align: right;
 }
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -63,6 +65,7 @@ article {
   background-color: #f2f2f2;
   border-radius: 15px;
 }
+
 aside {
   background-color: #f2f2f2;
   border-radius: 15px;
@@ -73,10 +76,28 @@ aside {
 img {
   width: 150px;
   height: 100px;
-  margin: 20px;
+  
 }
 #populaire {
   width: 100%;
 
   margin-top: 80px;
+}
+.photo{
+  margin-left: 30px;
+  width: 25%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.photo img{
+  width: 98%;
+  padding: 3px;
+  border-radius: 10px 10px 0px 0px ;
+  text-align: center;
+}
+span{
+  font-weight: bold;
+}
+.photo p {
+  font-weight: bold;
 }
