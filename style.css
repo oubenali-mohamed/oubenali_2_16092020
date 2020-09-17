@@ -99,7 +99,13 @@ div p {
 	padding-left: 4px;
 	color:  #0065FC;
 }
-
+.logement{
+  display: flex;
+  margin-top: none;
+}
+h5 {
+  margin-left: 15px;
+}
 section {
   display: flex;
   margin-bottom: 20px;
