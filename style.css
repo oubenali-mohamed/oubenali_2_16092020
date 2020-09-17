@@ -307,10 +307,11 @@ footer {
 footer div li {
   list-style-type: none;
   margin-top: 15px;
+  
 }
 footer div {
   margin-bottom: 50px;
 }
 footer h3 {
-  margin-left: 0px;
+  margin-left: 40px;
 }
