@@ -51,6 +51,55 @@ h2 h3 {
   font-weight: bold;
   text-align: right;
 }
+button{
+	border-radius: 30px;
+	height: 40px;
+	width: 30%;
+	background-color: #DEEBFF;
+	border: 1px solid #d3d3d3;
+}
+button i{
+  color:  #0065FC;
+}
+
+div p {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 15px;
+	border: 2px solid #d3d3d3;
+	border-radius: 30px;
+	width: 150px;
+	height: 40px;
+	
+}
+#filtres{
+	display: flex;
+	justify-content: space-between;
+	width: 900px;
+	}
+.animaux{
+	width: 200px;
+}
+.filtres{
+	align-items: center;
+	font-weight: bold;
+	border: none;
+	width: 20px;
+}
+.infos {
+	padding: 2px;
+	border: 2px solid #d3d3d3;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  margin-left: 50px;
+}
+.infos i {
+	padding-left: 4px;
+	color:  #0065FC;
+}
+
 section {
   display: flex;
   margin-bottom: 20px;
@@ -79,16 +128,18 @@ aside {
   border-radius: 20px 20px 20px 20px;
 }
 .hebergements img{
-  width: 98%;
-  height: 60%;
+  width: 96%;
+  height: 58%;
   padding: 3px;
-  border-radius: 10px 10px 0px 0px ;
+  border-radius: 20px 20px 0px 0px ;
   text-align: center;
 }
 .hebergements p{
   margin-left: 15px;
   font-weight: bold;
   font-size: 14px;
+  border: none;
+  margin-top: 0px;
 }
 .hebergements div {
   margin-left: 15px;
@@ -100,6 +151,7 @@ em{
 .afficher {
   font-weight: bold;
   margin-left: 50px;
+  border: none;
  }
 section .hebergements{
   display: inline-block;
@@ -167,6 +219,7 @@ h3 > i {
   font-weight: bold;
   margin-left: 15px;
   margin-top: 15px;
+  border: none;
 }
 .activité2 .premiere{
   margin-bottom: 30px;
@@ -200,11 +253,13 @@ h3 > i {
   font-weight: bold;
   margin-left: 20px;
   margin-top: 15px;
+  border: none;
 }
 .deuxieme p {
   font-weight: bold;
   margin-left: 20px;
   margin-top: 5px;
+  border: none;
 }
 footer {
   display: flex;
