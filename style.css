@@ -158,6 +158,9 @@ aside {
   border-radius: 15px;
   width: 35%;
 }
+section .hebergements {
+  display: inline-block;
+}
 .hebergements {
   margin-left: 50px;
   margin-bottom: 30px;
@@ -193,9 +196,6 @@ em {
   border: none;
   text-decoration: none;
   color: #000;
-}
-section .hebergements {
-  display: inline-block;
 }
 h3 {
   padding-top: 40px;
@@ -251,6 +251,10 @@ h3 > i {
   margin-left: 50px;
   font-weight: bold;
 }
+#Activités {
+  margin-right: 20px;
+  margin-left: 50px;
+}
 .activité {
   margin-bottom: 30px;
   margin-right: 30px;
@@ -273,7 +277,7 @@ h3 > i {
   border: none;
   font-size: 11px;
 }
-.activité2 .premiere {
+.premiere {
   margin-bottom: 30px;
   margin-right: 30px;
   width: 300px;
@@ -282,11 +286,7 @@ h3 > i {
   border-radius: 25px 25px 25px 25px;
   box-shadow: 5px 5px 5px #f2f2f2;
 }
-#Activités {
-  margin-right: 20px;
-  margin-left: 50px;
-}
-.activité2 .deuxieme {
+ .deuxieme {
   margin-right: 30px;
   width: 300px;
   height: 170px;
@@ -329,4 +329,90 @@ footer div {
 }
 footer h3 {
   margin-left: 40px;
+}
+
+
+@media all and (max-device-width: 980px) {
+  #bloc_page{
+    width: auto;
+  }
+  .btnRecherche{
+    width: auto;
+  }
+  #filtres{
+    flex-direction: column;
+  }
+  .logement{
+    margin-top: 0px;
+  }
+  #Hébergements{
+    width: auto;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  article{
+    width: 100%;
+    background-color: #ffffff;
+  }
+  aside{
+    width: auto;
+    padding-bottom: 30px;
+    border-radius: 20px;
+  }
+  h3{
+    margin-left: 0px;
+  }
+  .hebergements{
+    flex-direction: column;
+    width: auto;
+    height: 220px;
+    margin-left: 0px;
+  }
+  .hebergements p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .afficher{
+    margin-left: 0px;
+  }
+  .populaire {
+    width: auto;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  .populaire p {
+    margin-left: 20px;
+    font-size: 8px;
+  }
+  .populaire b {
+    margin-right: 60px;
+  }
+  .populaire i{
+    font-size: 10px;
+  }
+  .populaire .coeur{
+    margin-left: 0px;
+  }
+  .activité{
+    width: auto;
+    margin-top: 30px;
+    height: 200px;
+  } 
+  .activité img {
+    height: 65%;
+  }
+  #Activités{
+    flex-direction: column;
+    width: auto;
+  }
+  .premiere{
+    width: auto;
+  }
+  .deuxieme{
+    width: auto;
+  }
+  footer{
+    flex-direction: column;
+    width: auto;
+  }
 }
