@@ -321,37 +321,72 @@ footer h3 {
   margin-left: 40px;
 }
 
-
-@media all and (max-device-width: 1024px) {
+ @medi all (min-width: 1024px) and (max-width: 1280px){
+   
+ }
+@media all and (max-device-width: 480px) {
   #bloc_page{
     width: auto;
     margin-left: 5%;
     margin-right: 5%;
   }
+  header{
+    width: auto;
+  }
   #logo:nth-child(1){
-    align-self: start;
+    align-self: flex-start;
   }
-  .hébergements:nth-child(1){
-    align-self: flex-end;
-    margin-top: 100px;
+  .activités a{
+    display: flex;
+    margin-left: 80px;
+    float: right;
+    position: absolute;
   }
-  .activités:nth-child(2){
-    align-self: flex-end;
-    margin-top: 100px;
+  .activités a:hover{
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
   }
-  nav ul{
-  display: flex;
-  flex-direction: row;
+  .hébergements a {
+    display: flex;
+    position: absolute;
+   text-align: left;
+   margin-left: -100px;
+  }
+  .hébergements a:hover{
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
   }
   .inscription a{
-    align-self: start;
-   color: #0065fc;
+    display: flex;
+    margin-left: 120px;
+    color: #0065fc;
+  }
+  nav ul{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  h2{
+    margin-top: 80px;
+    font-size: 20px;
+  }
+  h4{
+    font-size: 14px;
   }
   .btnRecherche{
     width: auto;
   }
+  .btn1{
+    width: 70%;
+    border-radius: 15px;
+  }
   #filtres{
     flex-direction: column;
+  }
+  .famillial{
+    display: flex;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -60px;
   }
   .logement{
     margin-top: 0px;
