@@ -14,21 +14,25 @@ header{
   align-items: flex-end;
 }
 nav ul{
-  list-style-type: none;
-  display: flex;
-  margin-top: 0px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
 }
 nav li{
+  float: left;
+  list-style-type: none;
   margin-left: 50px;
 }
 nav a{
-  font-size: 18px;
+  display: inline-block;
+  padding: 20px 15px;
   text-decoration: none;
   color: #000000;
 }
 nav a:hover{
   color: #0065fc;
   border-top: 2px solid #0065fc;
+  padding: 18px 15px 18px 15px;
 }
 .inscription a{
   color: #0065fc;
@@ -145,7 +149,7 @@ h3{
   width: 65%;
   height: 100%;
   background-color: #f2f2f2;
-  border-radius: 20px;
+  border-radius: 15px;
   margin-right: 30px;
 }
 .hebergement1{
@@ -173,7 +177,6 @@ em{
 }
 .hebergement1 div{
   margin-left: 15px;
-  margin-bottom: 0px;
 }
 .etoile{
   color: #0065fc;
@@ -187,35 +190,47 @@ em{
   font-weight: bold;
   margin-left: 50px;
 }
+h3 i{
+  float: right;
+  margin-right: 25px;
+}
+.popu{
+  margin-left: 20px;
+}
 .populaire{
   width: 35%;
   background-color: #f2f2f2;
-  border-radius: 20px;
+  border-radius: 15px;
   height: 100%;
 }
 .populaire1{
   display: flex;
   width: 90%;
   margin-left: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 54px;
   background-color: #ffffff;
   border-radius: 15px;
   height: 100%;
 }
 .populaire1 img{
-  width: 80%;
+  width: 60%;
   height: 96%;
   border-radius: 15px 0px 0px 15px;
   padding: 3px;
 }
 .populaire1 p{
   border: none;
-  margin-right: 100px;
-  }
-.populaire b{
-  margin-right: 20px;
+  margin-right: 60px;
+}
+.populaire1 div{
+  margin-left: -60px;
+}
+.populaire1 b{
+  margin-right: 60px;
 }
 
+
+  
 
 
 @media all and (max-device-width: 480px) {
