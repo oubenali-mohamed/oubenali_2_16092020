@@ -347,12 +347,18 @@ footer li{
   #logo:nth-child(1){
     align-self: start;
   }
- 
+  .heberger{
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  .activity{
+    margin-top: 50px;
+    margin-right: 0px;
+  } 
   .activity a:hover{
     border-bottom: 2px solid #0065fc;
     border-top: none;
   }
-  
   .heberger a:hover{
     border-bottom: 2px solid #0065fc;
     border-top: none;
@@ -363,25 +369,32 @@ footer li{
   .filtres{
     display: flex;
     flex-direction: column;
-    width: 25%;
-    margin-left: 10px;
+    justify-content: space-between;
+    width: auto;
   }
- .filtres div{
-  margin-bottom: 20px;
+  .filtres button{
+    width: 25%;
+  }
+  .filtres div{
+   margin-bottom: 20px;
    margin-left: 15px;
+   width: 40%;
+   height: 60px;
+  }
+  .economique{
+    margin-right: 60px;
+  }
+  .famillial b{
+    margin-right: 90px;
+  }
+  .romantique b{
+    margin-right: 60px;
+  }
+  .animaux b{
+    margin-right: 20px;
   }
   .titre_filtre{
     margin-left: 15px;
-  }
-  .famillial{
-    margin-left: 200px;
-    margin-top: -45px;
-  }
-  .romantique{
-    margin-top: -45px;
-  }
-  .animaux{
-    margin-top: -45px;
   }
   h4{
     margin-bottom: 10px;
