@@ -316,10 +316,10 @@ h3 i{
 }
 footer{
   background-color: #f2f2f2;
-  height: 100%;
+  height: auto;
   margin-left: -2%;
   margin-right: -2%;
-  
+  padding-bottom: 50px;
 }
 footer div{
   margin-right: 200px;
@@ -453,4 +453,4 @@ footer li{
     width: 95%;
     margin-bottom: 50px;
   }
-}
+ }
