@@ -37,8 +37,7 @@ nav a:hover{
 .inscription a{
   color: #0065fc;
   font-weight: bold;
- 
-}
+ }
 .btnRecherche {
   display: flex;
   flex-direction: column;
@@ -57,7 +56,9 @@ nav a:hover{
   margin-left: -5px;
   height: 115%;
 }
-
+.btn1 i{
+  display: none;
+}
 input {
   border: 1px solid #f2f2f2;
   height: 35px;
@@ -274,7 +275,7 @@ h3 i{
   margin-right: 25px;
   border-radius: 15px;
   box-shadow: 10px 5px 5px #f2f2f2;
-  height: 60%;
+  height: 50%;
 }
 .activites2 img{
   border-radius: 15px 15px 0px 0px;
@@ -285,11 +286,11 @@ h3 i{
   margin-right: 30px;
   border-radius: 15px;
   box-shadow: 10px 5px 5px #f2f2f2;
-  height: 30%;
+  height: 40%;
 } 
 .activites3 img{
   border-radius: 15px 15px 0px 0px;
-  height: 70%;
+  height: 75%;
   width: 100%;
 }
 .activites4{
@@ -343,6 +344,7 @@ footer h3{
   nav ul{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
   #logo:nth-child(1){
     align-self: start;
@@ -354,7 +356,7 @@ footer h3{
   .activity{
     margin-top: 50px;
     margin-right: 0px;
-  } 
+  }
   .activity a:hover{
     border-bottom: 2px solid #0065fc;
     border-top: none;
@@ -365,6 +367,17 @@ footer h3{
   }
   .btnRecherche{
     margin-left: 15px;
+  }
+  .btn1 span{
+    display: none;
+  }
+  .btn1{
+    width: 50px;
+    border-radius: 15px;
+  }
+  .btn1 i{
+    display: inline;
+    color: #ffffff;
   }
   .filtres{
     display: flex;
