@@ -397,6 +397,16 @@ footer h3{
   .economique{
     margin-right: 60px;
   }
+  .famillial{
+    margin-left: 250px;
+    margin-top: -65px;
+  }
+  .romantique{
+    margin-top: -65px;
+  }
+  .animaux{
+    margin-top: -65px;
+  }
   .famillial b{
     margin-right: 90px;
   }
@@ -411,6 +421,9 @@ footer h3{
   }
   h4{
     margin-bottom: 10px;
+  }
+  .logement{
+    margin-top: -65px;
   }
  #hebergements{
    display: flex;
