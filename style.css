@@ -263,7 +263,7 @@ h3 i{
   border-radius: 15px 15px 0px 0px;
   width: 100%;
   height: 90%;
- } 
+} 
  .activ{
   display: flex;
   flex-direction: column;
@@ -332,6 +332,95 @@ footer h3{
   list-style-type: none;
   margin-top: 15px;
 } 
+@media all and (min-width: 481px) and (max-width: 1200px) {
+  #bloc_page{
+    width: auto;
+    height: auto;
+  }
+  header{
+    width: auto;
+  }
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .activity a:hover{
+    border-bottom: none;
+    border-top: 2px solid #0065fc;
+  }
+  .heberger a:hover{
+    border-bottom: none;
+    border-top: 2px solid #0065fc;
+  }
+  .filtres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+  }
+  .titre_filtre{
+    margin-left: 20px;
+  }
+  #hebergements{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .hebergement{
+    width: auto;
+    margin-bottom: 50px;
+  }
+  .popu{
+    display: none;
+  }
+  .popu i{
+    display: none;
+  }
+  .populaire{
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .populaire1{
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .populaire1 div{
+    margin-left: 20px;
+  }
+  .populaire1 img{
+   width: 100%;
+   object-fit: cover;
+  }
+  .activites{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .activity_marseille{
+    width: auto;
+    height: 400px;
+  }
+  .activity_marseille img{
+    object-fit: cover;
+  }
+  .activites4, .activites5{
+    width: 95%;
+  }
+ footer{
+    width: auto;
+    padding-bottom: 150px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+ 
+
 
 @media all and (max-device-width: 480px) {
   #bloc_page{
@@ -449,6 +538,8 @@ footer h3{
     margin-bottom: 10px;
   }
   .populaire{
+    display: flex;
+    flex-direction: column;
    width: auto;
    border-radius: 0px;
   }
