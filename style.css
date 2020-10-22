@@ -369,7 +369,7 @@ footer li {
     justify-content: space-between;
   }
   .hebergement {
-    width: auto;
+    width: 100%;
     margin-bottom: 50px;
   }
   .popu {
@@ -379,7 +379,7 @@ footer li {
     display: none;
   }
   .populaire {
-    width: 97%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -409,9 +409,11 @@ footer li {
   .activity_marseille img {
     object-fit: cover;
   }
-  .activites4,
-  .activites5 {
-    width: 95%;
+  .activites4,.activites5 {
+    width: auto;
+  }
+  .activites2, .activites3{
+    width: 100%;
   }
   footer {
     width: auto;
@@ -552,7 +554,7 @@ footer li {
     border-radius: 0px;
   }
   .populaire1 {
-    width: 80%;
+    width: 85%;
     margin-left: 55px;
   }
   .activites {
