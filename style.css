@@ -44,8 +44,7 @@ nav a:hover {
   margin-top: 20px;
   margin-left: 0px;
 }
-.btnRecherche,
-div {
+.btnRecherche,div {
   display: inline-block;
   height: 40px;
 }
@@ -300,16 +299,6 @@ h3 i {
   height: 45%;
 }
 .activites4 img {
-  border-radius: 15px 15px 0px 0px;
-  height: 80%;
-  width: 100%;
-}
-.activites5 {
-  border-radius: 15px;
-  box-shadow: 10px 5px 5px #f2f2f2;
-  height: 45%;
-}
-.activites5 img {
   border-radius: 15px 15px 0px 0px;
   height: 80%;
   width: 100%;
