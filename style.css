@@ -331,9 +331,11 @@ footer li {
   #bloc_page {
     width: auto;
     height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   header {
-    width: auto;
+    width: 90%;
   }
   nav ul {
     display: flex;
@@ -348,13 +350,22 @@ footer li {
     border-bottom: none;
     border-top: 2px solid #0065fc;
   }
+  #logo {
+    margin-left: 20px;
+  }
+  .btnRecherche {
+    margin-left: 20px;
+  }
   .filtres {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: auto;
+    width: 90%;
   }
   .titre_filtre {
+    margin-left: 20px;
+  }
+  .logement {
     margin-left: 20px;
   }
   #hebergements {
@@ -373,13 +384,13 @@ footer li {
     display: none;
   }
   .populaire {
-    width: 100%;
+    width: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
   }
   .populaire1 {
-    width: 100%;
+    width: auto;
     height: 150px;
     margin-top: 20px;
     margin-right: 20px;
@@ -388,25 +399,47 @@ footer li {
     margin-left: 20px;
   }
   .populaire1 img {
-    width: 100%;
+    width: 200px;
+  }
+  .marseille {
+    margin-left: 20px;
   }
   .activites {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
   }
   .activity_marseille {
-    width: auto;
-    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
   }
-  .activity_marseille img {
+  .activites1 {
+    
+    margin-left: 20px;
+  }
+  .activites1 img {
+    object-fit: fill;
+  }
+  .activites2 img {
     object-fit: cover;
   }
-  .activites4,.activites5 {
-    width: auto;
+  .activites3 img {
+    object-fit: cover;
   }
-  .activites2, .activites3{
-    width: 100%;
+  .activites2, .activites3 {
+    width: 70%;
+    margin-left: 60px;
+  }
+  .activites4 {
+    width: 70%;
+    margin-left: 60px;
+  }
+  .activites4 img {
+    object-fit: fill;
   }
   footer {
     width: auto;
@@ -438,13 +471,13 @@ footer li {
   .heberger {
     margin-top: 50px;
     margin-left: 0px;
-  }
+}
   .activity {
     margin-top: 50px;
     margin-right: 0px;
   }
   .inscription{
-    margin-left: -60px;
+    margin-left: -100px;
   }
   .activity a:hover {
     border-bottom: 2px solid #0065fc;
@@ -453,6 +486,13 @@ footer li {
   .heberger a:hover {
     border-bottom: 2px solid #0065fc;
     border-top: none;
+  }
+  .position {
+    height: 35px;
+    padding-top: 12px;
+  }
+  .position i {
+    margin-left: 10px;
   }
   .btnRecherche {
     margin-left: 15px;
@@ -489,6 +529,7 @@ footer li {
   .famillial {
     margin-left: 190px;
     margin-top: -65px;
+    padding-right: 0px;
   }
   .romantique {
     margin-top: -65px;
@@ -554,7 +595,15 @@ footer li {
   }
   .populaire1 {
     width: 90%;
+    height: 200px;
     margin-left: 30px;
+  }
+  .populaire1 div {
+    margin-left: 10px;
+    object-fit: cover;
+  }
+  .populaire1 img {
+    width: 99%;
   }
   .activites {
     display: flex;
@@ -619,6 +668,6 @@ footer li {
     height: 600px;
     padding-bottom: 50px;
     margin-top: 20px;
-    width: 100%;
+    width: auto;
   }
 }
